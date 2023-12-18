@@ -1,0 +1,80 @@
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, rgb(0, 195, 255), rgb(86, 128, 219), rgb(4, 0, 255));
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.link-custom-1 {
+  color: white;
+  /* Cor do texto padrão */
+  text-decoration: none;
+  /* Remove o sublinhado padrão do link */
+  transition: color 0.3s ease;
+  /* Adiciona transição suave */
+  margin: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.link-custom-2 {
+  color: white;
+  /* Cor do texto padrão */
+  text-decoration: none;
+  /* Remove o sublinhado padrão do link */
+  transition: color 0.3s ease;
+  /* Adiciona transição suave */
+  margin: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.App-h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.link-custom:hover {
+  color: lightgrey;
+  /* Cor do texto quando o mouse passa por cima */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
